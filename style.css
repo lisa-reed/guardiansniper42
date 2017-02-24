@@ -1,5 +1,5 @@
 body {
-    BACKGROUND COLOR: BLACK;
+    background-color: BLACK;
 } 
    
 ul {
@@ -22,14 +22,14 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+
 li a:hover {
     background-color: #111;
 }
     .active {
     background-color: #4CAF50;
 }
-    /* Add a gray right border to all list items, except the last item (last-child) */
+  
 li {
     border-right: 1px solid #bbb;
 }
