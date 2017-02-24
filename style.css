@@ -1,7 +1,8 @@
-BODY{
+body {
     BACKGROUND COLOR: BLACK;
-    
-    ul {
+} 
+   
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -21,7 +22,23 @@ li a {
     text-decoration: none;
 }
 
+/* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
 }
-    
+    .active {
+    background-color: #4CAF50;
+}
+    /* Add a gray right border to all list items, except the last item (last-child) */
+li {
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+    ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
